@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <script> src="weekday.js"</script>
     <script>
-        now=new Date();
+        let now = new Date();
+        let dayName = daysOfTheWeek[now.getDay()];
         alert('hello world, happy ${dayname(now)}!');
     </script>
     </head>
